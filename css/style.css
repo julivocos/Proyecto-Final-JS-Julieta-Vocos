@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+   }
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+header{
+    height:165px;
+    background-color:rgb(243, 192, 192);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.carrito{
+    text-align: left;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100px;
+    background-color:rgb(243, 200, 200);
+    font-size: 20px;
+        
+    
+}
+.colapse_carrito{
+    background-color:rgb(243, 192, 192);
+    color: black;
+    
+}
+.nav{
+    
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    width: 88%;
+    margin-left: 7%;
+}
+
+.nav-link{
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.nav-link:hover{
+    color: rgb(236, 92, 92);
+
+}
+
+
+.main_index{
+    
+    background-image:url(../img/fondo.jpg);
+    height: 900px;
+
+
+}
+
+.form-control{
+    width: 800px;
+    
+  
+}
+
+.form-label{
+    font-size: 20px;
+}
+
+.titulo_contacto{
+    margin-bottom: 35px;
+}
+.container_contacto{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container_index{
+    height: 700px;
+    display: flex;
+    flex-direction: column  ; 
+    justify-content: center;
+    align-content:center;
+    text-align: center;
+    
+}
+
+.container_prod{
+    margin-left: 25%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+    
+}
+
+img{
+    height: 310px;
+    
+}
+
+.bg-danger{
+    font-size: 10px;
+}
+
+td{
+    font-size: 12px;
+}
+
+.btn-danger{
+    font-size: 11px;
+}
+
+#divWeather{
+    
+    color: rgb(20, 77, 131);
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-self: center;
+    font-size: 12px;
+    width: 10%;
+    font-style: italic;
+    
+    
+   
+}
+#divWeather p{
+    margin-bottom: 0;
+    text-align: center;
+ 
+}
+
+#div_header{
+    display: flex;
+    
+
+
+}
+
+
+
